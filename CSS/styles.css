@@ -1,0 +1,181 @@
+@font-face {
+  font-family: "EmberRg";
+  src: url(../font/AmazonEmberDisplay_Rg.ttf);
+}
+@font-face {
+  font-family: "EmberMd";
+  src: url(../font/Amazon-Ember-Medium.ttf);
+}
+@font-face {
+  font-family: "EmberBd";
+  src: url(../font/AmazonEmber_Bd.ttf);
+}
+/**********Tag Selectors**********/
+body {
+  font-family: "Montserrat", sans-serif;
+  zoom: 90%;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: "EmberRg";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "EmberBd", sans-serif;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: "EmberBd", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: "EmberRg", sans-serif;
+}
+
+/**********Class & ID Selectors**********/
+
+.container-fluid {
+  padding: 10px 15% 7%;
+}
+
+/* Download Buttons */
+.btn-section {
+  margin-top: 50px;
+}
+.down-btn {
+  margin: 5% 3% 5% 0;
+  font-family: "EmberRg";
+  width: 250px;
+}
+.down-btn:hover {
+  box-shadow: 0px 0px 50px pink;
+}
+/* Title Section */
+#title {
+  background-image: url(../images/003.jpg);
+  color: black;
+}
+.title-img {
+  width: 700px;
+  position: absolute;
+  right: -35px;
+  top: 40px;
+  z-index: 1;
+}
+
+/* Navbar */
+.navbar {
+  padding: 10px 0 4.5rem 0;
+}
+.navbar-brand {
+  font-family: "Bebas Neue", cursive;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: "EmberMd", sans-serif;
+  font-weight: bold;
+}
+
+/* Features Section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; */
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+/* Icon Section */
+.icon {
+  color: pink;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: lightcoral;
+}
+
+/* Testimonials Section */
+#testimonials {
+  text-align: center;
+  background-image: url(../images/003.jpg);
+  color: black;
+  padding-bottom: 6%;
+}
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+}
+.carousel-indicators {
+  filter: invert(100%);
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+.pricing-col {
+  padding: 3% 2%;
+}
+.price-heading {
+  font-size: 2.2rem;
+}
+/* Footer Section */
+#cta {
+  background-image: url(../images/003.jpg);
+
+  color: black;
+  text-align: center;
+  padding: 7% 15%;
+}
+#footer {
+  text-align: center;
+  padding: 50px 15%;
+}
+.cta-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.social-icon {
+  margin: 20px 10px;
+  color: #8f8f8f;
+}
+.social-icon:hover {
+  color: #000;
+}
+@media screen and (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    transform: rotate(0);
+    position: static;
+    width: 100%;
+  }
+  .testimonial-text {
+    font-size: 1.5rem;
+  }
+}
